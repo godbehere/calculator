@@ -1,0 +1,68 @@
+<div class='container-column calculator'>
+		<div class='display'></div>
+		<div class='container'>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+		</div>
+		<div class='container'>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+		</div>
+		<div class='container'>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button2'></div>
+		</div>
+		<div class='container'>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+			<div class='calculator-button'></div>
+
+		</div>
+	</div>
+
+
+
+    .container {
+    display: flex;
+    border: black solid 1px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-button {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    background-color: blue;
+}
+
+.calculator-button2 {
+    width: 35px;
+    height: 80px;
+    margin: 5px;
+    background-color: blue;
+}
+
+.calculator {
+    border: black solid 1px;
+    padding: 5px;
+    width: fit-content;
+    
+}
+
+.display {
+    border: black solid 1px;
+    margin: 5px;
+    height: 35px;
+}
