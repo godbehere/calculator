@@ -1,8 +1,6 @@
 .container {
     display: flex;
-    width: fit-content;  
-    align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .container-column {
@@ -108,13 +106,15 @@
 .calculator {
     border: black solid 1px;
     padding: 5px;
-    width: fit-content;
+
     background-color: rgb(127, 136, 136);
-    align-self: center;
+    box-shadow: 5px 10px 5px grey;
+    border-radius: .8em;
 }
 
 .display {
     border: black solid 1px;
+    border-radius: .2em;
     margin: 5px;
     height: 35px;
     background-color: white;
